@@ -1,6 +1,6 @@
 export default [
   {
-    url: "",
+    url: "https://unnunhexium-project-hub.netlify.app/",
     git: "https://github.com/unnunhexium/project-hub",
     title: "project hub",
     technologies: ["js", "html", "css", "vue"],
