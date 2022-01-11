@@ -4,7 +4,7 @@ export default [
     git: "https://github.com/unnunhexium/project-hub",
     title: "project hub",
     technologies: ["js", "html", "css", "vue"],
-    image: "src/assets/project-hub.png",
+    image: "../assets/project-hub.png",
     id: "project-hub",
   },
   {
@@ -12,7 +12,7 @@ export default [
     git: "https://github.com/unnunhexium/space-tourism-website",
     title: "space tourism",
     technologies: ["js", "html", "css"],
-    image: "src/assets/space-tourism.png",
+    image: "../assets/space-tourism.png",
     id: "space-tourism",
   },
 
@@ -21,7 +21,7 @@ export default [
     git: "https://github.com/unnunhexium/sunnyside-agency-landing-page-main",
     title: "sunny side agency landing page",
     technologies: ["js", "html", "css"],
-    image: "src/assets/sunny-side.png",
+    image: "../assets/sunny-side.png",
     id: "sunny-side",
   },
   {
@@ -29,7 +29,7 @@ export default [
     git: "https://github.com/unnunhexium/order-summary-component",
     title: "order summary component",
     technologies: ["html", "css"],
-    image: "src/assets/order-summary.png",
+    image: "../assets/order-summary.png",
     id: "order-summary",
   },
 
@@ -38,7 +38,7 @@ export default [
     git: "https://github.com/unnunhexium/weather",
     title: "weather now",
     technologies: ["js", "html", "css"],
-    image: "src/assets/weather-now.png",
+    image: "../assets/weather-now.png",
     id: "weather",
   },
 
@@ -47,7 +47,7 @@ export default [
     git: "https://github.com/unnunhexium/calculator",
     title: "calculator",
     technologies: ["js", "html", "css", "react"],
-    image: "src/assets/calculator.png",
+    image: "../assets/calculator.png",
     id: "calculator",
   },
   {
@@ -55,7 +55,7 @@ export default [
     git: "https://github.com/unnunhexium/random-quote-machine",
     title: "random quote machine",
     technologies: ["js", "html", "css", "react"],
-    image: "src/assets/quote-machine.png",
+    image: "../assets/quote-machine.png",
     id: "quote-machine",
   },
 ];
