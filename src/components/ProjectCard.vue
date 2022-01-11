@@ -1,7 +1,7 @@
 <template>
   <div class="project-card">
     <div class="project-card__img-wrapper">
-      <img :src="getImagePath" class="project-card__img" />
+      <img :src="project.image" class="project-card__img" />
       <div class="project-card__actions">
         <a
           :href="project.url"
@@ -53,11 +53,6 @@ export default {
     project: {
       type: Object,
       required: true,
-    },
-  },
-  computed: {
-    getImagePath() {
-      return new URL(this.project.image, import.meta.url);
     },
   },
   methods: {
