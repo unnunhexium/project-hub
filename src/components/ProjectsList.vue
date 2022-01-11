@@ -30,9 +30,15 @@ export default {
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 20px 24px;
   grid-template-columns: 1fr 1fr;
   column-gap: 24px;
   row-gap: 34px;
 }
+
+@media (max-width: 700px) {
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+} ;
 </style>

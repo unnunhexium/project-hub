@@ -1,6 +1,8 @@
 <template>
-  <TheHeader />
-  <ProjectsList class="project-list" />
+  <div class="main">
+    <TheHeader />
+    <ProjectsList class="project-list" />
+  </div>
 </template>
 
 <script>
@@ -23,5 +25,9 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.main {
+  background: #f5f5f5;
 }
 </style>

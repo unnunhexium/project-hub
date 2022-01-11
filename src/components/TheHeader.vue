@@ -15,10 +15,16 @@ export default {
 header {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 16px;
+  padding: 60px 20px;
 }
 h1 {
   font-weight: 600;
   padding-bottom: 12px;
 }
+
+@media (max-width: 700px) {
+  header {
+    padding: 45px 20px;
+  }
+} ;
 </style>

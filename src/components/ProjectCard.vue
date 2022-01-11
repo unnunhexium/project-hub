@@ -3,12 +3,22 @@
     <div class="project-card__img-wrapper">
       <img :src="project.image" class="project-card__img" />
       <div class="project-card__actions">
-        <a :href="project.url" class="project-card__button"
-          ><img src="../assets/iconmonstr-video-13.svg"
-        /></a>
-        <a :href="project.git" class="project-card__button"
-          ><img src="../assets/iconmonstr-github-1.svg"
-        /></a>
+        <a
+          :href="project.url"
+          class="project-card__button"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img src="../assets/iconmonstr-video-13.svg" />
+        </a>
+        <a
+          :href="project.git"
+          class="project-card__button"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img src="../assets/iconmonstr-github-1.svg" />
+        </a>
       </div>
     </div>
     <div class="project-card__wrapper">
@@ -73,8 +83,8 @@ export default {
   &__button {
     display: block;
     text-decoration: none;
-    color: black;
     z-index: 20;
+    transition: filter 0.25s;
 
     img {
       width: 40px;
@@ -86,6 +96,7 @@ export default {
 
   &__img {
     max-width: 100%;
+    box-shadow: 0px 2px 3px rgb(19 52 77 / 15%);
   }
 
   &__actions {
@@ -102,25 +113,34 @@ export default {
 
   &__img-wrapper {
     position: relative;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
   }
   &__title {
-    padding-bottom: 12px;
+    padding-bottom: 8px;
     font-size: 26px;
   }
   &__description {
     font-size: 12px;
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 8px;
   }
   li {
-    padding: 6px 16px;
+    padding: 5px 16px;
     color: white;
     border-radius: 15px;
     font-weight: 600;
   }
-  &__wrapper {
-  }
 }
+@media (max-width: 700px) {
+  .project-card {
+    &__title {
+      font-size: 20px;
+    }
+    &__description {
+      font-size: 10px;
+      gap: 6px;
+    }
+  }
+} ;
 </style>
