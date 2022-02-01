@@ -1,5 +1,13 @@
 export default [
   {
+    url: "https://montecinema.netlify.app/",
+    git: "https://github.com/unnunhexium/montecinema",
+    title: "montecinema",
+    technologies: ["js", "html", "css", "vue"],
+    image: "/images/montecinema.png",
+    id: "montecinema",
+  },
+  {
     url: "https://unnunhexium-project-hub.netlify.app/",
     git: "https://github.com/unnunhexium/project-hub",
     title: "project hub",
